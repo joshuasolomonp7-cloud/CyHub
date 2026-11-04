@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
             <img 
-              src="/CyHub_Logo_Black.jpg" 
+              src={`${import.meta.env.BASE_URL}CyHub_Logo_Black.jpg`} 
               alt="CyHub Logo" 
               className="h-9 w-auto object-contain" 
             />

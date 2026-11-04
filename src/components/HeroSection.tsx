@@ -46,7 +46,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         <div className="flex justify-center mb-6">
           <div className="p-2 rounded-2xl bg-slate-50 border border-slate-200 shadow-sm">
             <img 
-              src="/CyHub_Logo_Black.jpg" 
+              src={`${import.meta.env.BASE_URL}CyHub_Logo_Black.jpg`} 
               alt="CyHub Logo" 
               className="h-14 sm:h-16 w-auto object-contain" 
             />

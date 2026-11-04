@@ -85,7 +85,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({
             {/* Certificate Header */}
             <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-slate-200 pb-5">
               <div className="flex items-center gap-3">
-                <img src="/CyHub_Logo_Black.jpg" alt="CyHub Logo" className="h-8 w-auto object-contain" />
+                <img src={`${import.meta.env.BASE_URL}CyHub_Logo_Black.jpg`} alt="CyHub Logo" className="h-8 w-auto object-contain" />
                 <span className="text-xs font-mono text-slate-500 uppercase tracking-wider">Credential Authority</span>
               </div>
               <div className="text-center sm:text-right font-mono text-xs">

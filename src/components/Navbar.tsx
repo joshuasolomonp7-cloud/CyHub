@@ -46,7 +46,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             className="flex items-center gap-3 cursor-pointer group"
           >
             <img 
-              src="/CyHub_Logo_Black.jpg" 
+              src={`${import.meta.env.BASE_URL}CyHub_Logo_Black.jpg`} 
               alt="CyHub Logo" 
               className="h-9 w-auto object-contain transition-transform group-hover:scale-102" 
             />
